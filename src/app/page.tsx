@@ -110,9 +110,11 @@ export default function Home() {
           </p>
         </a>
       </div>
+      <div className="h-screen"></div>
       <div id="test" className="text-red-600">
         Test
       </div>
+      <div className="h-screen"></div>
     </main>
   );
 }

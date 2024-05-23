@@ -15,12 +15,10 @@ export default function MenuTest() {
       <MenuHandler>
         <IconButton>hello</IconButton>
       </MenuHandler>
-      <MenuList className="">
-        <ul className="outline-none outline-0">
-          <a href="#test">
-            <MenuItem>hello</MenuItem>
-          </a>
-        </ul>
+      <MenuList>
+        <a href="#test">
+          <MenuItem>hello</MenuItem>
+        </a>
       </MenuList>
     </Menu>
   );
